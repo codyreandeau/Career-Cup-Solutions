@@ -1,0 +1,18 @@
+public class remove {
+  
+  public static void main (String[] args) {
+    
+    String word = "Hellto mty namet is Codty";
+    char x = 't';
+    
+    String newWord = remove_char(word, x);
+    
+    System.out.println("The new string is " + newWord);
+  }
+  
+  public String remove_char(String word, char i){
+    String str = str.replace(word, i);
+    return str;
+   }
+  
+}
