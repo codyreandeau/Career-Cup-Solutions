@@ -1,0 +1,15 @@
+public class BST {
+  
+  private class Node{
+    
+    int data;
+    Node left;
+    Node right;
+    
+    Node(int x) {
+      this.data = x;
+      left = null;
+      right = null;
+    }
+  
+}
